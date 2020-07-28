@@ -51,7 +51,7 @@
 
 <script>
 import mixin from '@directus/extension-toolkit/mixins/layout';
-import { mapValues, pickBy, keys } from 'lodash';
+import { mapValues, pickBy, keys, identity } from 'lodash';
 
 export default {
 	mixins: [mixin],
